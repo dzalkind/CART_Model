@@ -1,0 +1,58 @@
+------- ELASTODYN V1.00.* INDIVIDUAL BLADE INPUT FILE --------------------------
+CART 3-blade - Original work by A. Wright modified by Knud A. Kragh and Paul Fleming to match blade re-balancing data (6/27/11)
+---------------------- BLADE PARAMETERS ----------------------------------------
+         24   NBlInpSt    - Number of blade input stations (-)
+        0.1   BldFlDmp(1) - Blade flap mode #1 structural damping in percent of critical (%)
+        0.1   BldFlDmp(2) - Blade flap mode #2 structural damping in percent of critical (%)
+        0.2   BldEdDmp(1) - Blade edge mode #1 structural damping in percent of critical (%)
+---------------------- BLADE ADJUSTMENT FACTORS --------------------------------
+          1   FlStTunr(1) - Blade flapwise modal stiffness tuner, 1st mode (-)
+       0.82   FlStTunr(2) - Blade flapwise modal stiffness tuner, 2nd mode (-)
+          1   AdjBlMs     - Factor to adjust blade mass density (-)
+       0.83   AdjFlSt     - Factor to adjust blade flap stiffness (-)
+       0.92   AdjEdSt     - Factor to adjust blade edge stiffness (-)
+---------------------- DISTRIBUTED BLADE PROPERTIES ----------------------------
+    BlFract      PitchAxis      StrcTwst       BMassDen        FlpStff        EdgStff
+      (-)           (-)          (deg)          (kg/m)         (Nm^2)         (Nm^2)
+0.0000000E+00  5.0000000E-01  1.9190000E+01  3.4021768E+03  4.4700000E+08  5.5875000E+08  
+3.9720600E-03  5.0000000E-01  1.9190000E+01  3.4021768E+03  4.4700000E+08  5.5875000E+08  
+3.8485196E-02  5.0000000E-01  1.9190000E+01  1.5000000E+02  4.4700000E+08  5.5875000E+08  
+5.0000000E-02  5.0000000E-01  1.9190000E+01  1.4282105E+02  4.4700000E+08  5.5875000E+08  
+6.0000000E-02  5.0000000E-01  1.9190000E+01  1.4282105E+02  2.5200000E+08  3.7625000E+08  
+2.5000000E-01  5.0000000E-01  1.2590000E+01  1.4282000E+02  2.5200000E+08  3.7625000E+08  
+2.6000000E-01  5.0000000E-01  1.2410000E+01  1.0340000E+02  5.2600000E+07  1.8625000E+08  
+3.1000000E-01  5.0000000E-01  9.7500000E+00  1.0340000E+02  5.2600000E+07  1.8625000E+08  
+3.2000000E-01  5.0000000E-01  9.5000000E+00  9.5310000E+01  4.0800000E+07  1.6500000E+08  
+4.3000000E-01  5.0000000E-01  5.7200000E+00  9.5310000E+01  4.0800000E+07  1.6500000E+08  
+4.4000000E-01  5.0000000E-01  5.5700000E+00  8.5530000E+01  2.8300000E+07  1.3625000E+08  
+5.5000000E-01  5.0000000E-01  3.1300000E+00  8.5530000E+01  2.8300000E+07  1.3625000E+08  
+5.6000000E-01  5.0000000E-01  3.0300000E+00  7.5110000E+01  1.8300000E+07  1.0675000E+08  
+6.7000000E-01  5.0000000E-01  1.3900000E+00  7.5110000E+01  1.8300000E+07  1.0675000E+08  
+6.8000000E-01  5.0000000E-01  1.3100000E+00  6.2690000E+01  1.0400000E+07  7.4250000E+07  
+7.9000000E-01  5.0000000E-01  1.1000000E-01  6.2690000E+01  1.0400000E+07  7.4250000E+07  
+8.0000000E-01  5.0000000E-01  6.0000000E-02  4.8290000E+01  4.6600000E+06  3.9500000E+07  
+8.6000000E-01  5.0000000E-01  -4.8000000E-01  4.8290000E+01  4.6600000E+06  3.9500000E+07  
+8.7000000E-01  5.0000000E-01  -5.3000000E-01  9.9600098E+01  4.6600000E+06  3.9500000E+07  
+9.1000000E-01  5.0000000E-01  -8.6000000E-01  9.9600098E+01  4.6600000E+06  3.9500000E+07  
+9.2000000E-01  5.0000000E-01  -9.0000000E-01  8.4213413E+01  1.3600000E+06  1.7625000E+07  
+9.3000000E-01  5.0000000E-01  -9.7000000E-01  8.4213413E+01  1.3600000E+06  1.7625000E+07  
+9.4000000E-01  5.0000000E-01  -9.8000000E-01  5.0367641E+01  1.3600000E+06  1.7625000E+07  
+1.0000000E+00  5.0000000E-01  -1.4400000E+00  5.0367641E+01  1.3600000E+06  1.7625000E+07  
+---------------------- BLADE MODE SHAPES ---------------------------------------
+     0.1415   BldFl1Sh(2) - Flap mode 1, coeff of x^2
+    -0.0229   BldFl1Sh(3) -            , coeff of x^3
+     4.0059   BldFl1Sh(4) -            , coeff of x^4
+    -4.7405   BldFl1Sh(5) -            , coeff of x^5
+      1.616   BldFl1Sh(6) -            , coeff of x^6
+    -0.8708   BldFl2Sh(2) - Flap mode 2, coeff of x^2
+      0.138   BldFl2Sh(3) -            , coeff of x^3
+   -15.8735   BldFl2Sh(4) -            , coeff of x^4
+    33.6958   BldFl2Sh(5) -            , coeff of x^5
+   -16.0895   BldFl2Sh(6) -            , coeff of x^6
+      0.646   BldEdgSh(2) - Edge mode 1, coeff of x^2
+     0.7741   BldEdgSh(3) -            , coeff of x^3
+     0.5728   BldEdgSh(4) -            , coeff of x^4
+    -1.7899   BldEdgSh(5) -            , coeff of x^5
+      0.797   BldEdgSh(6) -            , coeff of x^6
+
+

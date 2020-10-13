@@ -1,0 +1,54 @@
+--------- AeroDyn v14.04.* INPUT FILE -------------------------------------------------------------------------
+CART 3-blade aerodynamic parameters for FAST.  AeroDyn ver. 12.58.
+"STEADY"      StallMod     - Dynamic stall included [BEDDOES or STEADY] (unquoted string)
+"NO_CM"       UseCm        - Use aerodynamic pitching moment model? [USE_CM or NO_CM] (unquoted string)
+"EQUIL"       InfModel     - Inflow model [DYNIN or EQUIL] (unquoted string)
+"WAKE"        IndModel     - Induction-factor model [NONE or WAKE or SWIRL] (unquoted string)
+      0.003   AToler       - Induction-factor tolerance (convergence criteria) (-)
+"PRANDtl"     TLModel      - Tip-loss model (EQUIL only) [PRANDtl, GTECH, or NONE] (unquoted string)
+"PRANDtl"     HLModel      - Hub-loss model (EQUIL only) [PRANdtl or NONE] (unquoted string)
+          0   TwrShad      - Tower-shadow velocity deficit (-)
+     9999.9   ShadHWid     - Tower-shadow half width (m)
+     9999.9   T_Shad_Refpt - Tower-shadow reference point (m)
+   1.225    AirDens      - Air density (kg/m^3)
+   1.75E-05   KinVisc      - Kinematic air viscosity [CURRENTLY IGNORED] (m^2/sec)
+    0.0025   DTAero       - Time interval for aerodynamic calculations (sec)
+         14   NumFoil      - Number of airfoil files (-)
+"AeroData\c3_01-02_circle_AD12.dat"    FoilNm      - Names of the airfoil files [NumFoil lines] (quoted strings)
+"AeroData\c3_03_2cir+1s818_AD12.dat"
+"AeroData\c3_04_1cir+2s818_AD12.dat"
+"AeroData\c3_05_s818_AD12.dat"
+"AeroData\c3_06_6s818+1s816_AD12.dat"
+"AeroData\c3_07_5s818+2s816_AD12.dat"
+"AeroData\c3_08_4s818+3s816_AD12.dat"
+"AeroData\c3_09_3s818+4s816_AD12.dat"
+"AeroData\c3_10_2s818+5s816_AD12.dat"
+"AeroData\c3_11_1s818+6s816_AD12.dat"
+"AeroData\c3_12-13_s816_AD12.dat"
+"AeroData\c3_14_2s816+1s817_AD12.dat"
+"AeroData\c3_15_1s816+2s817_AD12.dat"
+"AeroData\c3_16-20_s817_AD12.dat"
+         20   BldNodes    - Number of blade nodes used for analysis (-)
+RNodes         AeroTwst       DRNodes        Chord          NFoil          PrnElm
+8.5410000E-01  1.9189900E+01  7.6200000E-02  1.3590000E+00          1      NOPRINT 
+1.0022500E+00  1.9189900E+01  2.2010000E-01  1.3590000E+00          1      NOPRINT 
+1.2223500E+00  1.9189900E+01  2.2010000E-01  1.3590000E+00          1      NOPRINT 
+1.5547000E+00  1.9189900E+01  4.4460000E-01  1.3590000E+00          1      NOPRINT 
+2.2565000E+00  1.9189900E+01  9.5900000E-01  1.3590000E+00          1      NOPRINT 
+3.6950000E+00  1.6243000E+01  1.9180000E+00  1.7250000E+00          2      NOPRINT 
+5.6130000E+00  1.2659900E+01  1.9180000E+00  2.2280000E+00          4      NOPRINT 
+7.5310000E+00  8.2845000E+00  1.9180000E+00  2.1910000E+00          6      NOPRINT 
+9.4490000E+00  5.2671000E+00  1.9180000E+00  2.0790000E+00          7      NOPRINT 
+1.1367000E+01  3.1613000E+00  1.9180000E+00  1.9390000E+00          9      NOPRINT 
+1.3285000E+01  1.6580000E+00  1.9180000E+00  1.7750000E+00         11      NOPRINT 
+1.5203000E+01  4.8800000E-01  1.9180000E+00  1.5900000E+00         11      NOPRINT 
+1.6641500E+01  -1.8580000E-01  9.5900000E-01  1.4410000E+00         12      NOPRINT 
+1.7600500E+01  -5.9490000E-01  9.5900000E-01  1.3370000E+00         13      NOPRINT 
+1.8272000E+01  -8.5180000E-01  3.8400000E-01  1.2600000E+00         14      NOPRINT 
+1.8656000E+01  -9.8960000E-01  3.8400000E-01  1.2160000E+00         14      NOPRINT 
+1.9040000E+01  -1.1230000E+00  3.8400000E-01  1.1710000E+00         14      NOPRINT 
+1.9424000E+01  -1.2565000E+00  3.8400000E-01  1.1260000E+00         14      NOPRINT 
+1.9712000E+01  -1.3495000E+00  1.9200000E-01  1.0910000E+00         14      NOPRINT 
+1.9904000E+01  -1.4079000E+00  1.9200000E-01  1.0670000E+00         14      NOPRINT 
+
+
