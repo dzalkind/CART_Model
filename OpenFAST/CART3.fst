@@ -2,7 +2,7 @@
 FAST Model: CART 3-blades, Operating Point #1, with Region 2.5 Compatible with FAST v6.01.
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo            - Echo input data to <RootName>.ech (flag)
-FATAL         AbortLevel      - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}
+"FATAL"         AbortLevel      - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}
         10   TMax            - Total run time (s)
      0.0025   DT              - Recommended module time step (s)
    2          InterpOrder     - Interpolation order for input/output time history (-) {1=linear, 2=quadratic}
@@ -34,7 +34,7 @@ FATAL         AbortLevel      - Error level when simulation should abort (string
 True          SumPrint        - Print summary data to "<RootName>.sum" (flag)
           10   SttsTime        - Amount of time between screen status messages (s)
  99999        ChkptTime       - Amount of time between creating checkpoint files for potential restart (s)
-     0.0025   DT_Out          - Time step for tabular output (s) (or "default")
+     0.005   DT_Out          - Time step for tabular output (s) (or "default")
           0   TStart          - Time to begin tabular output (s)
           1   OutFileFmt      - Format for tabular (time-marching) output file (switch) {1: text file [<RootName>.out], 2: binary file [<RootName>.outb], 3: both}
 True          TabDelim        - Use tab delimiters in text tabular output file? (flag) {uses spaces if false}
